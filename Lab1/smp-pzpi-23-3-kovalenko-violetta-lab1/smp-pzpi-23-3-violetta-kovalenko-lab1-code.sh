@@ -6,7 +6,6 @@ quiet_mode=false
 group_name=""
 input_file=""
 
-# Error codes
 E_FILE_NOT_FOUND=1
 E_FILE_NOT_READABLE=2
 E_GROUP_NOT_FOUND=3
