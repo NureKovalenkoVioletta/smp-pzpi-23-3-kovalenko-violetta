@@ -196,7 +196,7 @@ ________________
 ДОДАТОК В
 Програмний код
 В.1  Код для створення та ініціалізації бази даних
-GitHub репозиторій: 
+GitHub репозиторій: https://github.com/NureKovalenkoVioletta/smp-pzpi-23-3-kovalenko-violetta/blob/main/Lab3/smp-pzpi-23-3-kovalenko-violetta-lab3/webshop/db/init_db.php
   1 <?php
   2 $dbFile = __DIR__ . '/webshop.sqlite';
   3
@@ -245,7 +245,7 @@ GitHub репозиторій:
  46 ?>
 
 В.2  Код для створення сторінки відображення товарів
-GitHub репозиторій: 
+GitHub репозиторій: https://github.com/NureKovalenkoVioletta/smp-pzpi-23-3-kovalenko-violetta/blob/main/Lab3/smp-pzpi-23-3-kovalenko-violetta-lab3/webshop/public/index.php
   1 <?php
   2 require_once 'includes/header.php';
   3
@@ -316,7 +316,7 @@ GitHub репозиторій:
  68 <?php require_once 'includes/footer.php'; ?>
  
 В.3  Код для створення сторінки відображення товарів в кошику
-GitHub репозиторій: 
+GitHub репозиторій: http://github.com/NureKovalenkoVioletta/smp-pzpi-23-3-kovalenko-violetta/blob/main/Lab3/smp-pzpi-23-3-kovalenko-violetta-lab3/webshop/public/basket.php
  
   1 <?php
   2 require_once 'includes/header.php';
@@ -382,7 +382,7 @@ GitHub репозиторій:
  62
  63 <?php require_once 'includes/footer.php'; ?>
 В.4  Код для створення головної сторінки
-GitHub репозиторій: 
+GitHub репозиторій: https://github.com/NureKovalenkoVioletta/smp-pzpi-23-3-kovalenko-violetta/blob/main/Lab3/smp-pzpi-23-3-kovalenko-violetta-lab3/webshop/public/home.php
   1 <?php
   2 require_once 'includes/header.php';
   3 ?>
@@ -406,6 +406,9 @@ GitHub репозиторій:
 
 
 В.5  Фрагмент коду, що відображає header
+GitHub репозиторій: https://github.com/NureKovalenkoVioletta/smp-pzpi-23-3-kovalenko-violetta/blob/main/Lab3/smp-pzpi-23-3-kovalenko-violetta-lab3/webshop/public/includes/header.php
+
+
   1 <?php
   2 session_start();
   3 require_once __DIR__ . '/functions.php';
@@ -432,6 +435,9 @@ GitHub репозиторій:
 
 
 В.6  Фрагмент коду, що відображає footer
+GitHub репозиторій: https://github.com/NureKovalenkoVioletta/smp-pzpi-23-3-kovalenko-violetta/blob/main/Lab3/smp-pzpi-23-3-kovalenko-violetta-lab3/webshop/public/includes/header.php
+
+
   1     </main>
   2     <footer>
   3         <div class="footer-nav">
@@ -447,6 +453,7 @@ GitHub репозиторій:
 
 
 В.7  Допоміжні функції
+GitHub репозиторій: https://github.com/NureKovalenkoVioletta/smp-pzpi-23-3-kovalenko-violetta/blob/main/Lab3/smp-pzpi-23-3-kovalenko-violetta-lab3/webshop/public/includes/functions.php
   1 <?php
   2 function getDbConnection() {
   3     static $db = null;
