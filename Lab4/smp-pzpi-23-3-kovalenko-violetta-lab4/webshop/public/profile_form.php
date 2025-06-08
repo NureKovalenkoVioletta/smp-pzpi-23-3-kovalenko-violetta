@@ -16,7 +16,6 @@ function getAge($dob) {
 
 $errors = [];
 $success = '';
-$showSaveButton = false;
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name = trim($_POST['name'] ?? '');
@@ -56,15 +55,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         file_put_contents('profile.php', "<?php\nreturn " . var_export($data, true) . ";\n");
         $user = $data;
         $success = "Дані збережено!";
-        $showSaveButton = false;
-    } else {
-        $showSaveButton = true;
-    }
+    } 
 }
 
-if ($_SERVER['REQUEST_METHOD'] === 'GET') {
-    $showSaveButton = false;
-}
 ?>
 
 <h2 style="text-align: center;">Профіль користувача</h2>
